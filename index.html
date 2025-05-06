@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+     <div class="container mt-5">
+        <h1 class="display-4 text-center mb-4">Score Analyzer</h1>
+
+        <p class="text-center">Enter your grades below:</p>
+
+
+        <div class="row justify-content-center text-center">
+            <!-- Filipino Card -->
+            <div class="col-md-3 mb-4">
+                <div class="card p-3 shadow-sm text-center">
+                    <img src="https://i.pinimg.com/736x/e7/6e/48/e76e4807f3d49fdc7ed0e5ca8ba7d08c.jpg" class="subject-img mb-2 mx-auto d-block" alt="Filipino">
+                    <input type="number" class="form-control text-center" id="filipino" placeholder="Filipino Grade" required>
+                </div>
+            </div>
+
+            <!-- English Card -->
+            <div class="col-md-3 mb-4">
+                <div class="card p-3 shadow-sm text-center">
+                    <img src="https://cdn.vectorstock.com/i/1000v/45/51/english-lessons-and-school-classes-banner-flat-vector-33924551.jpg" class="subject-img mb-2 mx-auto d-block" alt="English">
+                    <input type="number" class="form-control text-center" id="english" placeholder="English Grade" required>
+                </div>
+            </div>
+
+            <!-- Science Card -->
+            <div class="col-md-3 mb-4">
+                <div class="card p-3 shadow-sm text-center">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2cL3dcT13wKeMKAhaIaExt4yQwOrhb4pylg&s" class="subject-img mb-2 mx-auto d-block" alt="Science">
+                    <input type="number" class="form-control text-center" id="science" placeholder="Science Grade" required>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mb-4">
+            <button class="btn btn-success" onclick="calculateAverage()">Calculate</button>
+        </div>
+
+    </div>
+
+</body>
+</html>
