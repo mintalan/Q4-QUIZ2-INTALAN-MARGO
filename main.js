@@ -19,5 +19,5 @@ function calculateAverage() {
         rating = "Poor";
     }
 
-    alert("Average: " + average.toFixed(2) + "\nRating: " + rating);
+    alert("Average: " + average.toFixed(2) +  " Rating: " + rating);
 }
